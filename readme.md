@@ -1,3 +1,5 @@
+![nextjs fullstackinator](logo.jpg)
+
 # Nextjs-Fullstackinator
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
