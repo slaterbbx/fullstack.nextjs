@@ -1,7 +1,7 @@
 # Nextjs-Fullstackinator
-### Nextjs boilerplate with custom folder structure, setup for full stack development.
+## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
-#### Currently working with:
+### Currently working with:
 - Nextjs
   - Custom folder structure
 - Redux
@@ -13,7 +13,7 @@
 - Typescript
 - Styled-Components
 
-#### Coming in some future updates:
+### Coming in some future updates:
 - [ ] Apolo
 - [ ] GraphQL
 - [ ] Types for redux and Sagas
@@ -22,24 +22,24 @@
 - [ ] CI / CD for managing this project
 - [ ] Maybe some testing... Who knows.
 
-#### Commands:
-###### Install:
+### Commands:
+## Install:
 Install all of those pesky node_modules<br>
 `npm install`<br>
-###### Run development server:
+## Run development server:
 Run the dev server with hot module reload and nodemon server auto restart<br>
 `npm dev`<br>
-###### Build optimized server and client:
+## Build optimized server and client:
 Build files are output to ./dist folder<br>
 `npm build`<br>
-###### Run optimized build:
+## Run optimized build:
 Runs the optimized build from the ./dist folder<br>
 `npm start`<br>
 
-#### Contributions:
-I may not accept a plausable contribute if I don't have a particular interest in using them, since this project is mostly geared as a boilerplate for my own work. But please feel free to make pull requests if you have some code fixes or an idea for a possible better implementation of something.
+### Contributions:
+Please feel free to make pull requests if you have some code fixes or an idea for a possible better implementation of something. It is possible I may not accept a valid request if it does not suit my use case for this boilerplate.
 
-#### License:
+### License:
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
 in the Software without restriction, including without limitation the rights  
