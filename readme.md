@@ -1,6 +1,5 @@
 ![nextjs fullstackinator](logo.jpg)
 
-# Nextjs-Fullstackinator
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
 This project will always stay targeted to a specific use case. When you need a project start point for a highly scalable app with a custom server that has SSR, Code splitting, and some other optimizations out of the box with very little setup needed on your end thanks to the use of Nextjs. At some point this project may evolve into a multi use case boilerplate template engine. But for now, in its early stages, it will be an opinionated boilerplate based on the above mentioned use case.
