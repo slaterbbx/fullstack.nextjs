@@ -9,14 +9,14 @@
 - Redux
   - Redux-Sagas
   - Redux-Actions
-  - Redux Dev Tools Chome extension for dev build
+  - Redux Dev Tools / Chrome extension for dev build
 - Express server
   - Nodemon file watching
 - Typescript
 - Styled-Components
 
 ### Coming in some future updates:
-- [ ] Apolo
+- [ ] Apollo
 - [ ] GraphQL
 - [ ] Types for redux and Sagas
 - [ ] Better use case examples and commenting
