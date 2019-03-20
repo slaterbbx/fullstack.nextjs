@@ -30,8 +30,7 @@ This project will always stay targeted to a specific use case. When you need a p
   - For example, MobX instead of Redux or Thunk instead of Sagas
   - Restful API instead of Apollo and GraphQL
 - Simple CLI tool for pulling "templates" and creating ready to go projects.
-
-### NOTE: Extremely experimental boilerplate, not yet ready for PROD  
+ 
 ### Commands:
 ## Install:
 Install all of those pesky node_modules<br>
