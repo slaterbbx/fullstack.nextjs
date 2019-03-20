@@ -49,4 +49,4 @@ Runs the optimized build from the ./dist folder<br>
 `npm start`<br>
 
 ### License:
-MIT License | Nextjs-Fullstackinator © 2019 Kyle Gallagher
+MIT License | Fullstackinator © 2019 Kyle Gallagher
