@@ -2,7 +2,7 @@
 
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
-This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale project projects. Using Docker for the build and production workflow and examples for CI / CD workflow and testing.
+This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale projects that require a custom node backend..
 
 ### Currently working with:
 - Nextjs
