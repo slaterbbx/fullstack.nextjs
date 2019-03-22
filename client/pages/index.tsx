@@ -9,6 +9,11 @@ class Index extends Component {
     
   
     render() {
+		// Typescript compile test
+		let test: number;
+		test = 10;
+		console.log(test);
+
       return (
           <>
           <span>{this.props.curCount} </span>
