@@ -1,41 +1,39 @@
-import React, {Component} from 'react';
+import * as React from 'react';
 import { connect } from 'react-redux';
 
 import Link from 'next/link';
 
 import { countIncrement, countDecrement } from '../store/reducers/counter';
 
-class Index extends Component {
-    
-  
-    render() {
-		// Typescript compile test
-		let test: number;
-		test = 10;
-		console.log(test);
+interface Props {
+	curCount: number,
+	onIncrement: () => any,
+	onDecrement: () => any
+}
+
+const Index = (props: Props) => {
+	const {curCount, onIncrement, onDecrement } = props
+
+	let amount: number;
+	amount = 20;
 
       return (
           <>
-          <span>{this.props.curCount} </span>
-          <button onClick={this.props.onIncrement}>INCREMENT</button>
-          <button onClick={this.props.onDecrement}>DECREMENT</button>
-          <Link href="/test"><a> LINK!</a></Link>
+			<span>{curCount} </span>
+			<button onClick={onIncrement.bind(null, amount)}>INCREMENT</button>
+			<button onClick={onDecrement.bind(null, amount)}>DECREMENT</button>
+			<Link href="/test"><a> LINK!</a></Link>
           </>
       )
-    }
 };
 
-const mapStateToProps = state => {
-    return {
+const mapStateToProps = state => ({
         curCount: state.counter.count,
-    }
-}
+})
 
-const mapDispatchToProps = dispatch => {
-    return {
-        onIncrement: () => dispatch(countIncrement(10)),
-        onDecrement: () => dispatch(countDecrement(10)), 
-    }
-}
+const mapDispatchToProps = dispatch => ({
+        onIncrement: (amount: number) => dispatch(countIncrement(amount)),
+        onDecrement: (amount: number) => dispatch(countDecrement(amount)), 
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(Index);
