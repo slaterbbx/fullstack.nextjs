@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { countIncrement, countDecrement } from '../store/reducers/counter';
 
-interface Props {
+type Props = {
 	curCount: number,
 	onIncrement: () => any,
 	onDecrement: () => any
@@ -32,8 +32,8 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-        onIncrement: (amount: number) => dispatch(countIncrement(amount)),
-        onDecrement: (amount: number) => dispatch(countDecrement(amount)), 
+        onIncrement: (amount) => dispatch(countIncrement(amount)),
+        onDecrement: (amount) => dispatch(countDecrement(amount)), 
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Index);
