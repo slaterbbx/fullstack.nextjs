@@ -1,39 +1,36 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 
-import Link from 'next/link';
-
 import { countIncrement, countDecrement } from '../../store/reducers/counter';
 
 type Props = {
 	curCount: number,
 	onIncrement: () => any,
-	onDecrement: () => any
+	onDecrement: () => any,
 }
 
-const Test = (props: Props) => {
-	const {curCount, onIncrement, onDecrement } = props
+const CounterUI = (props: Props) => {
+	const { curCount, onIncrement, onDecrement } = props;
 
 	let amount: number;
-	amount = 10;
+	amount = 20;
 
 	return (
 		<>
-			<span>{curCount} </span>
+			<span className="count">{curCount} </span>
 			<button onClick={onIncrement.bind(null, amount)}>INCREMENT</button>
 			<button onClick={onDecrement.bind(null, amount)}>DECREMENT</button>
-			<Link href="/"><a> HOME</a></Link>
 		</>
 	)
 };
 
 const mapStateToProps = state => ({
-        curCount: state.counter.count,
-})
+	curCount: state.counter.count,
+});
 
 const mapDispatchToProps = dispatch => ({
-        onIncrement: (amount) => dispatch(countIncrement(amount)),
-        onDecrement: (amount) => dispatch(countDecrement(amount)), 
+	onIncrement: (amount: number) => dispatch(countIncrement(amount)),
+    onDecrement: (amount: number) => dispatch(countDecrement(amount)),
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Test);
+export default connect(mapStateToProps, mapDispatchToProps)(CounterUI);
