@@ -2,8 +2,6 @@
 
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
-## NOTE: Currently not compiling typescript properly due to custom pages location. Will work on fix soon.
-
 This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale projects that require a custom node backend..
 
 ### Currently working with:
