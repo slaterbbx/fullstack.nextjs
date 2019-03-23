@@ -5,24 +5,25 @@
 This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale projects that require a custom node backend..
 
 ### Currently working with:
-- Nextjs
+- [x] Nextjs
   - Custom folder structure
-- Redux
+- [x] Redux
   - Redux-Sagas
   - Redux-Actions
   - Redux Dev Tools / Chrome extension for dev build
-- Express server
+- [x] Express server
   - Nodemon file watching
-- Typescript
-- Styled-Components
+- [x] Typescript
+- [x] Styled-Components
 
 ### Coming in some future updates:
-- [ ] Apollo
-- [ ] GraphQL
+- [ ] Apollo - example
+- [ ] GraphQL - example
+- [ ] Mongoose ( MongoDB ) examples with GraphQL
 - [ ] Types for redux and Sagas
 - [ ] Better use case examples and commenting
 - [ ] Docker containerization for dev and production
-- [ ] CI / CD templates for launching and managing your full stack project
+- [ ] CI / CD examples for launching and managing your full stack project
 - [ ] Testing
  
 
