@@ -21,7 +21,7 @@ This project is an opinionated boilerplate for a fullstack workflow using a Node
 - [ ] GraphQL
 - [ ] Types for redux and Sagas
 - [ ] Better use case examples and commenting
-- [ ] Docker containerization for dev and prod
+- [ ] Docker containerization for dev and production
 - [ ] CI / CD templates for launching and managing your full stack project
 - [ ] Testing
  
