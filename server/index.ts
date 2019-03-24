@@ -1,9 +1,9 @@
 const express = require('express');
 import * as next from 'next';
 
-// const bodyParser = require('body-parser');
-// const graphqlHttp = require('express-graphql');
-// const { buildSchema } = require('graphql');
+// import bodyParser from 'body-parser';
+import * as graphqlHttp from 'express-graphql';
+import { buildSchema } from 'graphql';
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dir: './client', dev });
@@ -15,28 +15,36 @@ app.prepare().then(() => {
 	const server = express();
 	
 	// server.use(bodyParser.json());
-	// server.use('/graphql', graphqlHttp({
-	// 	schema: buildSchema(`
-	// 		type RootQuery {
-				
-	// 		}
+	server.use('/graphql', graphqlHttp({
+		schema: buildSchema(`
+			type RootQuery {
+				savedNumbers: [Int!]
+			}
 
-	// 		type RootMutation {
+			type RootMutation {
+				addNumber: Int
+			}
 
-	// 		}
-
-	// 		schema {
-	// 			query: RootQuery,
-	// 			mutation: RootMutation
-	// 		}
-	// 	`),
-	// 	rootValue: {}
-	// }))
+			schema {
+				query: RootQuery,
+				mutation: RootMutation
+			}
+		`),
+		rootValue: {
+			savedNumbers: () => {
+				return [10, 12, 23];
+			},
+			addNumber: (number) => {
+				return number;
+			}
+		},
+		graphiql: true
+	}))
     
 	server.get('*', (req, res) => {
 		return handle(req, res);
 	})
-    
+
 	server.listen(port, (err) => {
 		if (err) throw err;
 		console.log(`> Ready on http://localhost:${port}`);
