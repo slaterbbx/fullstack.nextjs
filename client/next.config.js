@@ -8,5 +8,5 @@ const nextConfig = {
 };
   
 module.exports = withPlugins([
-	[withTypescript, {}],
+	[withTypescript(), {}],
 ], nextConfig);
