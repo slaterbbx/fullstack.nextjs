@@ -4,8 +4,8 @@
 
 This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale SSR projects that require a custom node backend.. <br>
 
-### WHY?
-Because I needed it for a project.
+### WHY and why should I start my project with this?
+I created this because I needed it for a project. I could not find a solid start point for the project that incorporated Typescript / React / NextJs and NodeJs as the backend. So I knew it needed built. I already got what I need from it, and it could be used right now to start any project, but I plan to add some examples because I believe it could also be used as a good learning tool for someone interested in full stack development with node and react. For now I am going to just setup a general example where I pass around some simple number data and then store that in a local Mongo DB, and retrieve that with Apollo and GraphQL.. of course, you could use any Database you want. 
 
 ### Currently working with:
 - [x] Nextjs
