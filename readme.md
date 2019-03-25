@@ -2,7 +2,10 @@
 
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
-This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale projects that require a custom node backend..
+This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale SSR projects that require a custom node backend.. <br>
+
+### WHY?
+Because I needed it for a project.
 
 ### Currently working with:
 - [x] Nextjs
@@ -17,9 +20,9 @@ This project is an opinionated boilerplate for a fullstack workflow using a Node
 - [x] Styled-Components
 
 ### Coming in some future updates:
-- [ ] Apollo - example
-- [ ] GraphQL - example
-- [ ] Mongoose ( MongoDB ) examples with GraphQL
+- [x] Apollo - ( still needs better example )
+- [x] GraphQL - ( still needs better example )
+- [x] Mongoose ( still needs better example )
 - [ ] Types for redux and Sagas
 - [ ] Better use case examples and commenting
 - [ ] Docker containerization for dev and production
