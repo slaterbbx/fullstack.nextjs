@@ -14,6 +14,7 @@ app.prepare().then(() => {
 
 	const server = express();
 	
+	// All graphQL stuff is working but I will add examples in future updates
 	// server.use(bodyParser.json());
 	server.use('/graphql', graphqlHttp({
 		schema: buildSchema(`
