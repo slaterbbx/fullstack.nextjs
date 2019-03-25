@@ -1,4 +1,4 @@
-const express = require('express');
+import * as express from 'express';
 import * as next from 'next';
 
 // import bodyParser from 'body-parser';
@@ -39,6 +39,7 @@ app.prepare().then(() => {
 				return number;
 			}
 		},
+		// dev only
 		graphiql: true
 	}))
     
