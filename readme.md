@@ -1,4 +1,4 @@
-![nextjs fullstackinator](logo.jpg)
+![nextjs fullstackinator](headerIMG.jpg)
 
 ## Nextjs boilerplate with custom folder structure, setup for full stack development.
 
@@ -23,11 +23,10 @@ Because I needed it for a project.
 - [x] Apollo - ( still needs better example )
 - [x] GraphQL - ( still needs better example )
 - [x] Mongoose ( still needs better example )
-- [ ] Types for redux and Sagas
 - [ ] Better use case examples and commenting
-- [ ] Docker containerization for dev and production
+- [ ] Docker containerization
 - [ ] CI / CD examples for launching and managing your full stack project
-- [ ] Testing
+- [ ] Testing for examples with CI / CD
  
 
 ## How to use it:
