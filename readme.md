@@ -4,7 +4,7 @@
 
 This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale SSR projects that require a custom node backend.. <br>
 
-### WHY and why should I start my project with this?
+### Why should I start my project with this?
 I created this because I needed it for a project. I could not find a solid start point for the project that incorporated Typescript / React / NextJs and NodeJs with Express as the backend. I already got what I need from it, and it could be used right now to start any project. Although I plan to add an example project to it so that it can also be a good learning resource. 
 
 ### Currently working with:
