@@ -18,8 +18,7 @@ I created this because I needed it for a project. I could not find a solid start
   - Nodemon file watching
 - [x] Typescript
 - [x] Styled-Components
-- [x] Apollo - ( still needs better example )
-- [x] GraphQL - ( still needs better example )
+- [x] Apollo GraphQL - ( still needs better example )
 - [x] Mongoose ( still needs better example )
 
 ### Coming in some future updates:
