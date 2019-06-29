@@ -18,14 +18,6 @@ I created this because I needed it for a project. I could not find a solid start
   - Nodemon file watching
 - [x] Typescript
 - [x] Styled-Components
-- [x] Apollo GraphQL - ( still needs better example )
-- [x] Mongoose ( still needs better example )
-
-### Coming in some future updates:
-- [ ] Better use case examples and commenting
-- [ ] Docker containerization
-- [ ] CI / CD examples for launching and managing your full stack project
-- [ ] Testing for examples with CI / CD
  
 
 ## How to use it:
