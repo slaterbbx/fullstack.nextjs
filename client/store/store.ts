@@ -14,10 +14,9 @@ const bindMiddleware = middleware => {
   return applyMiddleware(...middleware)
 }
 
-const makeStore = (initialState) => {
+const makeStore = () => {
   const store = createStore(
     combineReducers(reducers),
-    initialState,
     bindMiddleware([sagaMiddleware])
   )
 
