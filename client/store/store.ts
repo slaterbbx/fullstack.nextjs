@@ -14,7 +14,7 @@ const bindMiddleware = middleware => {
   return applyMiddleware(...middleware)
 }
 
-function makeStore (initialState) {
+const makeStore = (initialState) => {
   const store = createStore(
     combineReducers(reducers),
     initialState,
