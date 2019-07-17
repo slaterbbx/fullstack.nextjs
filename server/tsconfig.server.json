@@ -1,0 +1,16 @@
+{
+	"extends": "../client/tsconfig.json",
+	"compilerOptions": {
+		"noEmit": false,
+		"module": "esnext",
+		"target": "es5",
+		"lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+		"outDir": "../dist/server"
+	},
+	"include": ["./*.ts", "./*.tsx"],
+	"exclude": ["dist"]
+}

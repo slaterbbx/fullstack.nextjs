@@ -1,0 +1,35 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.tsx": 0,
+      "multi private-next-pages/_document.tsx": 1,
+      "multi private-next-pages/index.tsx": 2,
+      "multi private-next-pages/page2/index.tsx": 3,
+      "multi next/dist/pages/_error": 4
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static\\BiCxm7uRFpDdSpChLrJ7D\\pages\\_app.js": 0,
+      "static\\BiCxm7uRFpDdSpChLrJ7D\\pages\\_document.js": 1,
+      "static\\BiCxm7uRFpDdSpChLrJ7D\\pages\\_error.js": 2,
+      "static\\BiCxm7uRFpDdSpChLrJ7D\\pages\\index.js": 3,
+      "static\\BiCxm7uRFpDdSpChLrJ7D\\pages\\page2.js": 4
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

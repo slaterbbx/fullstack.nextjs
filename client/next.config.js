@@ -1,12 +1,12 @@
-const withPlugins = require('next-compose-plugins');
-const withTypescript = require('@zeit/next-typescript');
+// const withPlugins = require('next-compose-plugins');
+// const withTypescript = require('@zeit/next-typescript');
 
 
 // next.js configuration
 const nextConfig = {
-	distDir: '../dist',
+	distDir: '../dist/client',
 };
   
-module.exports = withPlugins([
-	[withTypescript(), {}],
-], nextConfig);
+// module.exports = withPlugins([
+// 	[withTypescript(), {}],
+// ], nextConfig);

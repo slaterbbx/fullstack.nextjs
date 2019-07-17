@@ -1,8 +1,8 @@
-import * as express from 'express';
-import * as next from 'next';
+import express from 'express';
+import next from 'next';
 
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dir: './client', dev });
+const app = next({ dir: './client', dev: true});
 const handle = app.getRequestHandler();
 const port = parseInt(process.env.PORT, 10) || 3000;
 
