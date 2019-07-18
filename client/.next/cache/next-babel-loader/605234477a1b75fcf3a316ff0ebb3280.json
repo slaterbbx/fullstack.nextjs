@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { reducer as counter } from './counter';\nexport default {\n  counter: counter\n};","map":null,"metadata":{},"sourceType":"module"}
