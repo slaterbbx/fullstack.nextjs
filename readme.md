@@ -1,3 +1,5 @@
+### NOTE: Will not work with next.js 9.0.0 at this time, I am working on the needed changes and will publish when I figure out what is needed to make it work.
+
 ![nextjs fullstackinator](headerIMG.jpg)
 
 ## ⚡️ Nextjs boilerplate for full stack development. ⚡️
