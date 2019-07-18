@@ -1,3 +1,6 @@
+## NOTE: This version is working but the file structure is not how it was in the master branch  
+I am working on this and would prefer that it was the way it was before but it seems that currently I cannot seem to get the next.config.js file to be recognized by Next.js. As of right now, the server build files are found in a created ./dist folder and the next files are being built into the ./client/.next folder. Ultimately this would be fine and works, but I prefer to have all of the files in the ./dist folder. If anyone has an understanding as to why the next.config.js file is being ignored, please feel free to create a pull request on this branch. Thanks!
+
 ![nextjs fullstackinator](headerIMG.jpg)
 
 ## ⚡️ Nextjs boilerplate for full stack development. ⚡️
