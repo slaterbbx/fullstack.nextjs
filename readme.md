@@ -1,4 +1,4 @@
-### NOTE: Will not work with next.js 9.0.0 at this time, I am working on the needed changes and will publish when I figure out what is needed to make it work.
+### NOTE: I have a branch that has been updated to work with Next.js 9.0 but currently the folder structure is not as I would prefer it. Read more on that branch called next9changes.
 
 ![nextjs fullstackinator](headerIMG.jpg)
 
