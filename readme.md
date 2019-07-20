@@ -1,5 +1,3 @@
-### NOTE: I have a branch that has been updated to work with Next.js 9.0 but currently the folder structure is not as I would prefer it. Read more on that branch called next9changes.
-
 ![nextjs fullstackinator](headerIMG.jpg)
 
 ## ⚡️ Nextjs boilerplate for full stack development. ⚡️
@@ -18,9 +16,8 @@ I could not find a solid start point for the project that incorporated Typescrip
 - [x] Node Express server
   - Nodemon file watching ( live server restart for code changes )
 - [x] Typescript ( Server and Client )
-- [x] Styled-Components 💅
+- [x] Styled-Components 💅  
  
-
 ## 👁‍🗨 How to use it:
 ### Clone the repo:
 ```
