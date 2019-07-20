@@ -1,4 +1,3 @@
 node_modules
-dist
+distServer
 client/.next
-notes.txt
