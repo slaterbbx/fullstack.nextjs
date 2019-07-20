@@ -2,11 +2,11 @@
 	"extends": "../client/tsconfig.json",
 	"compilerOptions": {
 		"noEmit": false,
+		"strict": false,
 		"module": "commonjs",
 		"target": "es5",
 		"lib": ["esnext"],
-		"outDir": "../dist/server"
+		"outDir": "../distServer"
 	},
 	"include": ["./*.ts", "./*.tsx"],
-	"exclude": ["../dist"]
 }
