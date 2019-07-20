@@ -14,13 +14,13 @@
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": false,
+    "removeComments": true,
     "preserveConstEnums": true,
 		"sourceMap": true,
 		"forceConsistentCasingInFileNames": false,
     "baseUrl": ".",
     "typeRoots": [
-      "./node_modules/@types"
+      "../node_modules/@types"
     ],
     "target": "es5",
     "lib": [
@@ -30,10 +30,6 @@
     ],
     "outDir": "../dist",
   },
-  "exclude": [
-    "../dist",
-    "../server/**/*.*"
-  ],
   "include": [
     "next-env.d.ts",
     "./*.ts",
