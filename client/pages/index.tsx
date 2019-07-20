@@ -6,7 +6,7 @@ import CounterUI from '../components/CounterUI/CounterUI';
 const Index = () => (
 	<>
 		<CounterUI />
-		<Link href="/page2"><a> Page2</a></Link>
+		<Link href="/page2"><a> Page 2</a></Link>
 	</>
 )
 
