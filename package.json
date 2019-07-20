@@ -4,11 +4,11 @@
     "description": "Full of stack to the max. Nextjs with custom express server, Typescript, Redux, Saga, Styled-components and more",
     "private": true,
     "scripts": {
-        "start": "nodemon",
+        "dev": "nodemon",
         "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
         "build:client": "next build ./client",
         "build:server": "tsc --project ./server/tsconfig.server.json",
-        "production": "cross-env NODE_ENV=production node dist/server"
+        "start": "cross-env NODE_ENV=production node distServer"
     },
     "author": "Kyle Gallagher",
     "license": "MIT",
