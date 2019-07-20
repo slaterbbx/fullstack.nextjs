@@ -9,6 +9,7 @@ import makeStore from '../store/store';
 class MyApp extends App {
 
   render () {
+		// @ts-ignore
     const { Component, store } = this.props
     return (
       <Container>
