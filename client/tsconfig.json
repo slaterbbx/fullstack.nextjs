@@ -19,9 +19,6 @@
 		"sourceMap": true,
 		"forceConsistentCasingInFileNames": false,
     "baseUrl": ".",
-    "typeRoots": [
-      "../node_modules/@types"
-    ],
     "target": "es5",
     "lib": [
       "dom",
