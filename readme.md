@@ -35,7 +35,7 @@ Install node_modules
 Run the dev server with hot module reload and nodemon server auto restart<br>
 `npm run dev`
 ### Build optimized server and client:
-Build files are output to ./dist folder  
+Build files are output to ./distServer folder  
 `npm run build` ( builds all files for production / Client and Server )
 ### Run production server:
 Runs the optimized build from the ./distServer folder  
