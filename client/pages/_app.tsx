@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app';
+import App from 'next/app';
 import React from 'react';
 import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
@@ -12,11 +12,11 @@ class MyApp extends App {
 		// @ts-ignore
     const { Component, store } = this.props
     return (
-      <Container>
+      <>
         <Provider store={store}>
           <Component/>
         </Provider>
-      </Container>
+      </>
     )
   }
 };
