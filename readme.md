@@ -32,14 +32,15 @@ Everything functions the same as it would while normally using Next.js to develo
 Install node_modules  
 `npm install`
 ### Run development server:
-Run the dev server with hot module reload and nodemon server auto restart<br>
-`npm run dev`
+Run the dev server with hot module reload and nodemon server auto restart<br>  
+NOTE: Make sure ts-node is also installed globally. (dev environment only)
+`npm start`
 ### Build optimized server and client:
 Build files are output to ./distServer folder  
 `npm run build` ( builds all files for production / Client and Server )
 ### Run production server:
 Runs the optimized build from the ./distServer folder  
-`npm start`  
+`npm run production`  
 
 ## 📚 Resources:
 ### Redux dev tools
