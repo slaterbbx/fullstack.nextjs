@@ -4,7 +4,7 @@
 This project is an opinionated boilerplate for a fullstack workflow using a Nodejs server with express and NextJs for the React front end. The idea is to make it a solid boilerplate for large scale SSR projects that require a custom node backend.  
 
 ### 🔎 More about this project
-I could not find a solid start point for the project that incorporated Typescript / NextJs and NodeJs with Express as the backend, I also wanted to have a simplified folder structure for oganization. This boilerplate takes care of handling that start point so that you only need to consider your options for database and the API you plan to use to query data from your database. Redux is incorporated for global state managment. Typescript is setup to work in both server and client files and now works with Next.js 9.0 +  
+I could not find a solid start point for the project that incorporated Typescript / NextJs and NodeJs with Express as the backend, I also wanted to have a simplified folder structure for organization. This boilerplate takes care of handling that start point so that you only need to consider your options for database and the API you plan to use to query data from your database. Redux is incorporated for global state managment. Typescript is setup to work in both server and client files and now works with Next.js 9.0 +  
 
 ### 🔓 Currently working with:
 - [x] Nextjs
