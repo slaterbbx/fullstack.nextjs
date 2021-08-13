@@ -15,7 +15,7 @@
     "dependencies": {
         "es6-promise": "^4.2.8",
         "express": "^4.17.1",
-        "next": "^9.0.2",
+        "next": "^11.1.0",
         "next-redux-saga": "^3.0.0",
         "next-redux-wrapper": "^2.0.0",
         "react": "^16.8.6",
